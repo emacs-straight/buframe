@@ -1,0 +1,2 @@
+;; Generated package description from buframe.el  -*- no-byte-compile: t -*-
+(define-package "buframe" "0.2.0.20250917.90452" "Buffer-local frames" '((emacs "27.1") (timeout "2.1")) :commit "d2f1fcdb5f320a5ac583e1f4edc22397106e830a" :authors '(("Al Haji-Ali" . "abdo.haji.ali@gmail.com")) :maintainer '("Al Haji-Ali" . "abdo.haji.ali@gmail.com") :keywords '("buffer" "frames" "convenience") :url "https://github.com/haji-ali/buframe")
