@@ -4,7 +4,7 @@
 
 ;; Author: Al Haji-Ali <abdo.haji.ali@gmail.com>
 ;; URL: https://github.com/haji-ali/buframe
-;; Version: 0.2
+;; Version: 0.3
 ;; Package-Requires: ((emacs "27.1") (timeout "2.1"))
 ;; Keywords: buffer, frames, convenience
 ;;
@@ -351,7 +351,8 @@ Also ensure frame is made visible."
                   ((buffer-live-p buffer))
                   (new-parent (window-frame (get-buffer-window buffer 'visible)))
                   ((not (eq (frame-parent frame) new-parent))))
-        (set-frame-parameter frame 'parent-frame new-parent))
+        (set-frame-parameter frame 'parent-frame new-parent)
+        (redirect-frame-focus frame new-parent))
 
       (with-current-buffer (plist-get info :parent-buffer)
         (if-let* ((pos (funcall fn-pos frame)))
