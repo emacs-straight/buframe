@@ -1,2 +1,2 @@
-;; Generated package description from buframe.el  -*- no-byte-compile: t -*-
-(define-package "buframe" "0.3.0.20260120.162350" "Buffer-local frames" '((emacs "27.1") (timeout "2.1")) :commit "b6a92c96ea5c71247c94610b873bae47dfc898bb" :authors '(("Al Haji-Ali" . "abdo.haji.ali@gmail.com")) :maintainer '("Al Haji-Ali" . "abdo.haji.ali@gmail.com") :keywords '("buffer" "frames" "convenience") :url "https://github.com/haji-ali/buframe")
+;; Generated package description from buframe.el  -*- no-byte-compile: t; lexical-binding:t -*-
+(define-package "buframe" "0.3.0.20260327.125525" "Buffer-local frames" '((emacs "27.1") (timeout "2.1")) :commit "99bcd2835e9806fb974beba18856b602bfb36758" :authors '(("Al Haji-Ali" . "abdo.haji.ali@gmail.com")) :maintainer '("Al Haji-Ali" . "abdo.haji.ali@gmail.com") :keywords '("buffer" "frames" "convenience") :url "https://github.com/haji-ali/buframe")
